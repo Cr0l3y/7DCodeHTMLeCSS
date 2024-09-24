@@ -1,0 +1,69 @@
+
+
+.cabecalho__titulo{
+    color: var(--cor-nome);
+    padding: 0 0 0 0.8em;
+
+}
+
+.cabecalho{
+    background-color:var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cabecalho__logo{
+    padding: 0 0 0 6em;
+    background-position: center;
+    display: inline-block;
+}
+
+.opcao{
+    padding: 0 20em 0 0;
+}
+
+
+.opcao, .menu__right{
+    color: var(--cor-opcoes);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.opcao__item, .menu__right__r, .menu__right__rs{
+    padding: 0 1em;
+    text-decoration: none;
+    list-style: none; /* Remove as bolinhas */
+}
+
+.opcao__link{
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+.opcao__link__cadastrar{
+    color: var(--cor-cadastrar);
+    background-color: var(--cor-borda); /* Preenchimento cinza */
+    border: 1px solid var(--cor-borda); /* Adiciona a borda cinza */
+    padding: 0.5em 1em; /* Adiciona um espaçamento interno para deixar a borda com mais espaço */
+    border-radius: 4px; /* Bordas levemente arredondadas */
+    text-decoration: none;
+}
+
+
+.menu__right{
+    padding: 0 6em 0 0;
+}
+
+
+
