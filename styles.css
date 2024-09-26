@@ -93,7 +93,7 @@
   justify-content: space-around;
   padding: 5rem;
   background-color: var(--cor-branco);
-
+  margin:0 8em;
 }
 
 .metricas__blocos{
