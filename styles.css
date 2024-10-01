@@ -122,4 +122,44 @@
   color: var(--text-color);
 }
 
+.infor{
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 8rem;
+}
+
+
+.infor__vagas{
+  color: var(--main-color); 
+  font-size: 14px;
+  font-weight: 500;
+  border: none; 
+  border-radius: 1.5rem;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 8px 16px;
+  display: inline-block; 
+  text-align: center; 
+}
+
+
+
+.infor__titulo{
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
+
+.infor__textodois{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 4rem 0;
+}
+
+
+.infor__image{
+  margin: 0 0 4rem 0;
+}
 
