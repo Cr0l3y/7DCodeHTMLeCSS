@@ -5,6 +5,9 @@
     --main-color: #8E2424;
     --cor-titulo-numeros: #101828;
     --cor-branco:#FFFFFF;
+    --cor-borda: #EAECF0;
+    --cor-bordavagas: rgba(255, 0, 0, 0.1);
+    --cor-preto: #000;
 
   }
   
@@ -54,11 +57,7 @@
     color: var(--cor-branco);
   }
 
-
-
-
-
-
+/* Seção cabecalho*/
   .cabecalho {
     text-align: center;
     margin-top: 7rem;
@@ -87,7 +86,7 @@
   }
 
 
-
+/* Seção Metricas e conteiner */
 .metricas__container{
   display: flex;
   justify-content: space-around;
@@ -122,44 +121,93 @@
   color: var(--text-color);
 }
 
-.infor{
+/* Seção Vagas */
+.infor {
   text-align: center;
   margin-top: 7rem;
   margin-bottom: 8rem;
 }
 
-
-.infor__vagas{
+.infor__vagas {
   color: var(--main-color); 
   font-size: 14px;
   font-weight: 500;
   border: none; 
   border-radius: 1.5rem;
-  background-color: rgba(255, 0, 0, 0.1);
+  background-color: var(--cor-bordavagas);
   padding: 8px 16px;
-  display: inline-block; 
-  text-align: center; 
+  display: inline-block;
 }
 
-
-
-.infor__titulo{
+.infor__titulo {
   font-size: 2rem;
   margin: 1rem 0;
   font-size: 36px;
   font-weight: 600;
 }
 
-
-
-.infor__textodois{
+.infor__textodois {
   font-size: 20px;
   font-weight: 400;
   margin: 0 0 4rem 0;
 }
 
-
-.infor__image{
-  margin: 0 0 4rem 0;
+.infor__image {
+  max-width: 100%; 
+  border-radius: 8px;
 }
 
+/* Seção Vagas */
+.vagas {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.vagas__proficao {
+  margin-right: 26.5em;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cor-titulo-numeros);
+  margin-bottom: 2rem;
+}
+
+.vagas__div {
+  border: 1px solid var(--cor-borda);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--cor-branco);
+  box-shadow: 0 1px 3px var();
+  max-width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; 
+}
+
+.vagas__prof {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--cor-preto);
+  margin-bottom: 0.5rem;
+}
+
+.vagas__info {
+  display: flex;
+  gap: 3em;
+}
+.vagas__info span {
+  font-size: 16px;
+  color: var(--text-color);
+  padding: 1.4em 0 0 0;
+}
+
+.vagas__proficao__dois{
+  margin-right: 15em;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cor-titulo-numeros);
+  margin-bottom: 1rem; 
+}
+
+
+/* proxima sessao de depoimentos e de rodape */
