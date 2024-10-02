@@ -8,6 +8,9 @@
     --cor-borda: #EAECF0;
     --cor-bordavagas: rgba(255, 0, 0, 0.1);
     --cor-preto: #000;
+    --cor-bordadepoimento: #C3191908;
+    --cor-rodape:#F9FAFB;
+    --corbordaedata: #98A2B3;
 
   }
   
@@ -80,9 +83,7 @@
   .cabecalho__textodois{
     font-size: 20px;
     font-weight: 400;
-    margin-top: 2em;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin: 2em 20em 0 20em;
   }
 
 
@@ -173,7 +174,7 @@
 
 .vagas__div {
   border: 1px solid var(--cor-borda);
-  border-radius: 0.5rem;
+  border-radius: 0.5rem ;
   padding: 1.5rem;
   margin-bottom: 1rem;
   background-color: var(--cor-branco);
@@ -210,4 +211,88 @@
 }
 
 
-/* proxima sessao de depoimentos e de rodape */
+
+.depoimentos{
+  text-align: center;
+  margin: 7rem 12rem 0 12rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 0.5rem;
+  background-color: var(--cor-bordadepoimento);
+
+}
+
+
+.depoimentos_text{
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 6em;
+}
+
+
+.depoimentos__titulo{
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--cor-titulo-numeros);
+  margin: 1em 7em 1em 7em;
+}
+
+
+
+.depoimentos__nome{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.6em 0 0.3em 0;
+}
+
+.proficao{
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+
+
+
+.rodape{
+  margin: 10rem 0 10rem 0;
+  text-align: center;
+  background-color: var(--cor-rodape);
+  padding: 10rem;
+}
+
+
+.rodape__titulo, .rodape__texto, .rodape__direitos, .buttons2{
+  padding-bottom: 2rem;
+}
+
+.rodape__titulo{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.rodape__texto{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.rodape__pesquisa{
+  background-color: transparent;
+  border: 1px solid var(--corbordaedata);
+  color: var(--cor-preto);
+  border-radius: 8px;
+  padding: 1em;
+  width: 25%;
+
+}
+
+.buttons2{
+  margin-right: 1rem;
+}
+
+
+.rodape__direitos{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--corbordaedata);
+}
